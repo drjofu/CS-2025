@@ -54,8 +54,9 @@ konten.Ausgeben("via Extension Method");
 new int[] { 1, 2, 3 }.Ausgeben();
 "Hallo".Ausgeben("String");
 
+//KontoVergleicher kv = new KontoVergleicher() { Kriterium = "..." };
+//konten.Sort(kv);
 konten.Sort();
-
 konten.Ausgeben("Sortiert");
 
 Console.ReadLine();

@@ -11,7 +11,7 @@ class Konto : IComparable<Konto>
     Konto k1 = this;
     Konto k2 = other!;
 
-    return k2.Kontonummer - k1.Kontonummer;
+    return k1.Inhaber!.CompareTo(k2.Inhaber);
   }
 
   public override string ToString()

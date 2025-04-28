@@ -39,13 +39,23 @@ List<Konto> konten = new List<Konto>()
     Kontonummer = 14,
     Inhaber = "Track",
     Saldo = 100.7
-  },
+  }
 };
 
 
-foreach (Konto konto in konten)
-{
-  Console.WriteLine(konto);
-} 
+//foreach (Konto konto in konten)
+//{
+//  Console.WriteLine(konto);
+//} 
+
+Erweiterungsmethoden.Ausgeben(konten);
+
+konten.Ausgeben("via Extension Method");
+new int[] { 1, 2, 3 }.Ausgeben();
+"Hallo".Ausgeben("String");
+
+konten.Sort();
+
+konten.Ausgeben("Sortiert");
 
 Console.ReadLine();

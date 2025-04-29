@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LinqToXmlBeispiel
+{
+  class Country
+  {
+    public string CarCode { get; set; }
+    public string Name { get; set; }
+    public int Population { get; set; }
+    public DateTime? IndependenceDate { get; set; }
+    public string Government { get; set; }
+  }
+}

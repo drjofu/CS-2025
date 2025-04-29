@@ -129,6 +129,8 @@ foreach (var gruppe in gruppen)
   }
 }
 
+konten.Ausgeben("1").Ausgeben("2").Ausgeben("3");
+
 //Console.WriteLine(konten.Where(k=>k.Inhaber.StartsWith("D")).Count());
 
 //IEnumerable<Konto> kontoEnumerable = konten;

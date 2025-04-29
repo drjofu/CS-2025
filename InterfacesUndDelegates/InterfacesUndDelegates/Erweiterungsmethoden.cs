@@ -2,7 +2,7 @@
 
 static class Erweiterungsmethoden
 {
-  public static void Ausgeben<T>(this IEnumerable<T> liste, string titel = "")
+  public static IEnumerable<T> Ausgeben<T>(this IEnumerable<T> liste, string titel = "")
   {
     Console.WriteLine($"********** {titel} **********");
     foreach (T element in liste)
@@ -11,6 +11,7 @@ static class Erweiterungsmethoden
     }
 
     Console.WriteLine("*********************************");
+    return liste;
   }
 
   //public static void AAA(this object obj) { }

@@ -8,7 +8,7 @@
         Title="Window1" Height="450" Width="800">
   <Grid>
     <Button Name="BTN_START" Content="Start" HorizontalAlignment="Left" Margin="69,56,0,0" VerticalAlignment="Top" Click="BTN_START_Click"/>
-    <Button Name="BTN_STOPP" Content="Stopp" HorizontalAlignment="Left" Margin="263,56,0,0" VerticalAlignment="Top"/>
+    <Button Name="BTN_STOPP" Content="Stopp" HorizontalAlignment="Left" Margin="263,56,0,0" VerticalAlignment="Top" Click="BTN_STOPP_Click" IsEnabled="False"/>
     <Label Name="LBL" Content="Label" HorizontalAlignment="Left" Margin="129,140,0,0" VerticalAlignment="Top"/>
 
   </Grid>
